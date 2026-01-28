@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tables</title>
+    <style>
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th,
+    td {
+        padding: 20px;
+    }
+    </style>
 </head>
 <body>
-    <table border="1">
+    --------------------Table 01-------------------
+    <table>
         <caption>Student Details</caption>
         <thead>
             <tr>
@@ -31,8 +44,8 @@
                 <td>Hi</td>
             </tfoot>
     </table>
---------------------------------------------
-    <table border="1">
+--------------------Table 02-------------------
+    <table>
         <tr>
             <th colspan="2">Name</th>
             <th>Marks</th>
@@ -48,5 +61,20 @@
             <td>90</td>
         </tr>
     </table>
+--------------------Table 03-------------------
+    <table>
+        <tr>
+            <th>Customer's Name</th>
+            <td>Anura</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Emails</th>
+            <td>anura@gmail.com</td>
+        </tr>
+        <tr>
+            <td>anu1990@gmail.com</td>
+        </tr>
+    </table>
+
 </body>
 </html>
