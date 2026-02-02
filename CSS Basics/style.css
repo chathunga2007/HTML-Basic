@@ -17,3 +17,16 @@ h1 {
     border: 1px solid;
     background-color: rgb(235, 159, 44);
 }
+
+/* fully page apply css */
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+/* select attribute to apply css */
+input[type="text"] {
+    border: 1px solid blue;
+}
