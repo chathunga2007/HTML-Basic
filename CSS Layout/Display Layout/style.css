@@ -1,5 +1,23 @@
+body {
+    font-family:'Comic Sans MS';
+}
+
+h2 {
+    margin-top: 20px;
+}
+
 .box {
     display: block;
-    background: lightblue;
+    background: rgb(3, 242, 255);
     margin: 15px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block div {
+    display: block;
+    width: 200px;
+    height: 80px;
 }
