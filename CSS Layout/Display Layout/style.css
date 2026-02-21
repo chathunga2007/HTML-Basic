@@ -2,6 +2,10 @@ body {
     font-family:'Comic Sans MS';
 }
 
+h1 {
+    font-style: oblique;
+}
+
 h2 {
     margin-top: 20px;
 }
@@ -31,4 +35,16 @@ h2 {
     margin: 10px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.inline-block div {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    background: rgb(118, 252, 118);
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    border: 2px solid black;
 }
