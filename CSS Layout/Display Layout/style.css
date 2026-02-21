@@ -21,3 +21,14 @@ h2 {
     width: 200px;
     height: 80px;
 }
+
+.inline span {
+    display: inline;
+    background: rgb(251, 255, 132);
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
