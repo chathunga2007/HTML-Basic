@@ -2,15 +2,11 @@
     height: 300px;
     width: 450px;
     transition: all 0.5s ease;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 550px;
     margin-top: 210px;
     border-radius: 50px;
 }
 
 .image:hover img {
-    transform: rotate(360deg);
-    width: 500px;
-    height: 350px;
+    transform: rotate(360deg) scale(1.2);
 }
