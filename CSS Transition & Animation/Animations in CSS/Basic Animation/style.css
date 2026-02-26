@@ -13,3 +13,22 @@
         transform: translateX(300px);
     }
 }
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: colorChange 4s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background: red;
+    }
+    50% {
+        background: yellow;
+    }
+    100% {
+        background: green;
+    }
+}
